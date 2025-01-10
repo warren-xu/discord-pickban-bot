@@ -1,0 +1,5 @@
+This pickban bot was created for a VALORANT tournament I hosted with some friends over the Winter Break. It creates an interactive UI in a discord channel and guides two users through the pickban process of 5 VALORANT maps. First, a rock paper scissors game is played between two users. The winning user can then run the pickban command, and decides if they want to ban a map first or second. The users keep banning maps until there is only one map left, whereby the user who bans first will choose the side of the map. Users can interact with it with the following commands:
+!pickban @user - Start the pickban process
+!rps @user - A simple rock paper scissors game to decide who should ban first and second.
+
+This project uses Discord.py. I used a discord token to host the bot and used Button and View to control what the user can see. I also made sure that other users besides the ones affected by the command cannot press any buttons during this process. I'm planning on further extending this so that users can customize how many maps they want in the pickban, as well as if they want to pick more than 1 map.
